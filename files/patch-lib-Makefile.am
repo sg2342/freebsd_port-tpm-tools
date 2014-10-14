@@ -1,0 +1,11 @@
+--- lib/Makefile.am.orig	2014-03-27 03:46:15.270407170 +0000
++++ lib/Makefile.am	2014-03-27 03:46:27.384409237 +0000
+@@ -44,7 +44,7 @@
+ #
+ # TSPI interface library
+ libtpm_tspi_la_SOURCES	=	tpm_tspi.c
+-libtpm_tspi_la_LIBADD	=	libtpm_utils.la -ldl
++libtpm_tspi_la_LIBADD	=	libtpm_utils.la
+ 
+ #
+ # PKCS#11 interface library

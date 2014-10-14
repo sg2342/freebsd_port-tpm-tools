@@ -1,0 +1,11 @@
+--- src/data_mgmt/Makefile.in.orig	2014-10-14 20:47:14.286726396 +0000
++++ src/data_mgmt/Makefile.in	2014-10-14 20:47:42.993723633 +0000
+@@ -366,7 +366,7 @@
+ #
+ # Common build flags
+ AM_CPPFLAGS = -I$(top_srcdir)/include -D_LINUX
+-LDADD = $(top_builddir)/lib/libtpm_pkcs11.la -ltspi -ldl
++LDADD = $(top_builddir)/lib/libtpm_pkcs11.la -ltspi
+ 
+ #
+ # TPM Token initialization command

@@ -1,0 +1,12 @@
+--- src/data_mgmt/Makefile.am.orig	2014-10-14 20:47:06.911728066 +0000
++++ src/data_mgmt/Makefile.am	2014-10-14 20:47:42.997723358 +0000
+@@ -38,7 +38,7 @@
+ # Common build flags
+ AM_CPPFLAGS	=	-I$(top_srcdir)/include -D_LINUX
+ 
+-LDADD		=	$(top_builddir)/lib/libtpm_pkcs11.la -ltspi -ldl
++LDADD		=	$(top_builddir)/lib/libtpm_pkcs11.la -ltspi
+ 
+ 
+ #
+
