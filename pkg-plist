@@ -26,6 +26,11 @@ sbin/tpm_setownable
 sbin/tpm_setpresence
 sbin/tpm_takeownership
 sbin/tpm_version
+sbin/tpm_nvdefine
+sbin/tpm_nvinfo
+sbin/tpm_nvread
+sbin/tpm_nvrelease
+sbin/tpm_nvwrite
 man/man1/tpm_sealdata.1.gz
 man/man1/tpm_version.1.gz
 man/man1/tpmtoken_import.1.gz
@@ -51,4 +56,9 @@ man/man8/tpm_setoperatorauth.8.gz
 man/man8/tpm_setownable.8.gz
 man/man8/tpm_setpresence.8.gz
 man/man8/tpm_takeownership.8.gz
+man/man8/tpm_nvdefine.8.gz
+man/man8/tpm_nvinfo.8.gz
+man/man8/tpm_nvread.8.gz
+man/man8/tpm_nvrelease.8.gz
+man/man8/tpm_nvwrite.8.gz
 @dirrm include/tpm_tools
