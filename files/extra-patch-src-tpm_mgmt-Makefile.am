@@ -1,0 +1,19 @@
+--- src/tpm_mgmt/Makefile.am.orig	2015-05-10 23:52:05.287014000 +0000
++++ src/tpm_mgmt/Makefile.am	2015-05-11 00:28:52.988462000 +0000
+@@ -46,6 +46,7 @@
+ 			tpm_nvread      \
+ 			tpm_nvrelease   \
+ 			tpm_nvwrite     \
++			tpm_printpcrs   \
+ 			tpm_resetdalock \
+ 			tpm_restrictsrk \
+ 			tpm_revokeek \
+@@ -60,6 +61,8 @@
+ tpm_startup_SOURCES =		tpm_startup.c
+ tpm_reset_SOURCES =		tpm_reset.c
+ 
++tpm_printpcrs_SOURCES	=	tpm_printpcrs.c
++
+ tpm_changeownerauth_SOURCES =	tpm_changeauth.c
+ tpm_clear_SOURCES	=	tpm_clear.c
+ tpm_createek_SOURCES	=	tpm_createek.c

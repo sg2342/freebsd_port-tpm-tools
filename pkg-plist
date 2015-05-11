@@ -17,6 +17,7 @@ sbin/tpm_resetdalock
 sbin/tpm_restrictpubek
 sbin/tpm_restrictsrk
 sbin/tpm_revokeek
+%%PPCRS%%sbin/tpm_printpcrs
 sbin/tpm_selftest
 sbin/tpm_setactive
 sbin/tpm_setclearable
